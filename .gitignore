@@ -1,0 +1,17 @@
+# Carpetas locales de Terraform (plugins y proveedores)
+.terraform/
+
+# Archivos de estado (¡Nunca subirlos, contienen datos sensibles!)
+*.tfstate
+*.tfstate.*
+
+# Archivos de variables con datos reales o contraseñas
+*.tfvars
+*.tfvars.json
+
+# Archivos de configuración locales
+override.tf
+override.tf.json
+
+# Llaves de cuentas de servicio de GCP (¡Seguridad ante todo!)
+*.json
